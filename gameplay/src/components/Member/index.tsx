@@ -5,14 +5,14 @@ import{ View, Text } from 'react-native';
 import { Avatar } from '../Avatar';
 
 export type MembersProps = {
-    id: string,
-    username: string,
-    avatar_url: string,
-    status: string,
+    id: string;
+    username: string;
+    avatar_url: string;
+    status: string;
 }
 
 type Props = {
-    data: MembersProps,
+    data: MembersProps;
 }
 
 export function Members({ data }: Props) {
