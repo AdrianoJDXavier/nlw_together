@@ -2,21 +2,24 @@ import React from 'react';
 import { Text } from 'react-native';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 
-import { styles } from './styles';
+import DiscordImg from '../../assets/discord.png';
+import { styles } from './style';
 
 type Props = RectButtonProps & {
-  title: string;
+    title: string;
+
 }
 
-export function Button({ title, ...rest } : Props){
-  return(
-    <RectButton 
-      style={styles.container} 
-      {...rest }
-    >
-      <Text style={styles.title}>
-        { title }
-      </Text>
-    </RectButton>
-  );
+export function Button({ title, ...rest }: Props) {
+    return (
+        <RectButton
+            style={styles.container}
+            {...rest}
+        >
+
+            <Text style={styles.title}>
+                {title}
+            </Text>
+        </RectButton>
+    );
 }
