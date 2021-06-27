@@ -10,10 +10,10 @@ import {
 import { useAuth } from '../../hooks/auth'
 
 import IllustrationImg from '../../assets/illustration.png';
-import { styles } from './styles';
+import { styles } from './style';
 import { theme } from '../../global/styles/theme';
 import { Background } from '../../components/Background';
-import { ButtonIcon } from '../../components/ButtonIcon';
+import { ButtonIcon } from '../../components/buttonIcon';
 
 
 export function SignIn() {

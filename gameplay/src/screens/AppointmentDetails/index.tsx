@@ -16,7 +16,7 @@ import { Header } from '../../components/Header';
 import { ListHeader } from '../../components/ListHeader';
 import { Member, MemberProps } from '../../components/Member';
 import { ListDivider } from '../../components/ListDivider';
-import { ButtonIcon } from '../../components/ButtonIcon';
+import { ButtonIcon } from '../../components/buttonIcon';
 import { Load } from '../../components/Load';
 import { AppointmentProps } from '../../components/Appointment';
 
